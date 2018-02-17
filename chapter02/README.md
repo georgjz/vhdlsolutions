@@ -1,6 +1,5 @@
 ## File list
 
-**Excerise 9**: mux.vhdl, mux_tb.vhdl
+**Excerise 9**: counter.vhdl, counter_tb.vhdl
 
-**Exercise 11**: mux4.vhdl, mux4_tb.vhdl
-Additional dependencies: mux.vhdl
+**Exercise 10**: mux4.vhdl, mux4_tb.vhdl
