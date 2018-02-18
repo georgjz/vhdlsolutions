@@ -6,6 +6,9 @@ by Peter Ashenden.
 
 You will only find the solutions to exercises of the difficulty of 2, 3,
 and 4(solutions to exercises of difficulty 1 are found in the book's appendix).
+I added a subfolder `waveforms` to each chapter where you will find the
+waveform outputs for the solutions that can be viewed with GTKWave
+(see 'Compiling the solutions' below).
 
 I'll be adding new solutions as I work through them.
 

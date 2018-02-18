@@ -1,0 +1,59 @@
+$date
+  Sun Feb 18 02:35:24 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! data_in $end
+$var reg 1 " en $end
+$var reg 1 # data_out $end
+$scope module tristate_buffer_dut $end
+$var reg 1 $ data_in $end
+$var reg 1 % en $end
+$var reg 1 & data_out $end
+$upscope $end
+$enddefinitions $end
+#0
+L!
+0"
+Z#
+L$
+0%
+Z&
+#10000000
+0!
+1"
+0#
+0$
+1%
+0&
+#20000000
+H!
+L"
+Z#
+H$
+L%
+Z&
+#30000000
+1!
+H"
+1#
+1$
+H%
+1&
+#40000000
+U!
+1"
+X#
+U$
+1%
+X&
+#50000000
+Z!
+H"
+Z$
+H%
+#60000000

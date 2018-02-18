@@ -1,0 +1,91 @@
+$date
+  Sun Feb 18 19:04:19 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var real 64 ! x $end
+$var real 64 " y $end
+$var real 64 # z $end
+$var reg 1 $ f1 $end
+$var reg 1 % f0 $end
+$scope module floatalu_dut $end
+$var real 64 & x $end
+$var real 64 ' y $end
+$var reg 1 ( f1 $end
+$var reg 1 ) f0 $end
+$var real 64 * z $end
+$upscope $end
+$enddefinitions $end
+#0
+r2.5 !
+r7.6 "
+r1.01e1 #
+0$
+0%
+r2.5 &
+r7.6 '
+0(
+0)
+r1.01e1 *
+#10000000
+r6.7 !
+r8.1 "
+r1.48e1 #
+r6.7 &
+r8.1 '
+r1.48e1 *
+#20000000
+r3.4 !
+r1.9 "
+r1.5 #
+1%
+r3.4 &
+r1.9 '
+1)
+r1.5 *
+#30000000
+r9.0e-1 !
+r3.8 "
+r-2.9 #
+r9.0e-1 &
+r3.8 '
+r-2.9 *
+#40000000
+r9.1 !
+r2.7 "
+r2.457e1 #
+1$
+0%
+r9.1 &
+r2.7 '
+1(
+0)
+r2.457e1 *
+#50000000
+r2.4 !
+r3.5 "
+r8.4 #
+r2.4 &
+r3.5 '
+r8.4 *
+#60000000
+r4.9 !
+r1.2 "
+r4.083333333333334 #
+1%
+r4.9 &
+r1.2 '
+1)
+r4.083333333333334 *
+#70000000
+r2.2 !
+r6.9 "
+r3.1884057971014496e-1 #
+r2.2 &
+r6.9 '
+r3.1884057971014496e-1 *
+#80000000
