@@ -7,3 +7,5 @@
 **Exercise 12**: counter.vhdl, counter_tb.vhdl
 
 **Exercise 13**: async_counter.vhdl, async_counter_tb.vhdl
+
+**Exercise 14**: averager.vhdl, averager_tb.vhdl
