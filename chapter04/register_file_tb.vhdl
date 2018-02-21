@@ -1,4 +1,4 @@
--- test bench to the solution of exercise 10, chapter 4
+-- test bench to the solution of exercise 9, chapter 4
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

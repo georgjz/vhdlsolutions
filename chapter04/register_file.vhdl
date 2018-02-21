@@ -1,4 +1,4 @@
--- solution to exercise 10, chapter 4
+-- solution to exercise 9, chapter 4
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
