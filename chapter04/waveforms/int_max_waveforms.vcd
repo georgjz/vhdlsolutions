@@ -1,0 +1,43 @@
+$date
+  Wed Feb 21 22:17:31 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$comment data_in is not handled $end
+$var integer 32 ! data_out $end
+$var reg 1 " valid_in $end
+$comment data_empty is not handled $end
+$var integer 32 # data_out_empty $end
+$var reg 1 $ valid_empty $end
+$scope module max_dut $end
+$comment vector_in is not handled $end
+$var integer 32 % data_out $end
+$var reg 1 & valid_in $end
+$upscope $end
+$scope module empty_dut $end
+$comment vector_in is not handled $end
+$var integer 32 ' data_out $end
+$var reg 1 ( valid_in $end
+$upscope $end
+$enddefinitions $end
+#0
+b110 !
+1"
+b10000000000000000000000000000000 #
+0$
+b110 %
+1&
+b10000000000000000000000000000000 '
+0(
+#10000000
+b1010 !
+b1010 %
+#20000000
+b11111111111111111111111111111100 !
+b11111111111111111111111111111100 %
+#30000000
+#40000000
