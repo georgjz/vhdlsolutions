@@ -1,0 +1,92 @@
+$date
+  Thu Feb 22 04:12:29 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 4 ! data_in[3:0] $end
+$var reg 2 " sel[1:0] $end
+$var reg 1 # z $end
+$scope module mux_4to1_dut $end
+$var reg 1 $ a0 $end
+$var reg 1 % a1 $end
+$var reg 1 & a2 $end
+$var reg 1 ' a3 $end
+$var reg 1 ( s0 $end
+$var reg 1 ) s1 $end
+$var reg 1 * z $end
+$var reg 2 + sel[1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0101 !
+b00 "
+U#
+1$
+0%
+1&
+0'
+0(
+0)
+U*
+b00 +
+#4500000
+1#
+1*
+#10000000
+b01 "
+1(
+b01 +
+#14500000
+0#
+0*
+#20000000
+b10 "
+0(
+1)
+b10 +
+#24500000
+1#
+1*
+#30000000
+b11 "
+1(
+b11 +
+#34500000
+0#
+0*
+#40000000
+b0110 !
+b00 "
+0$
+1%
+0(
+0)
+b00 +
+#44500000
+0*
+#50000000
+b01 "
+1(
+b01 +
+#54500000
+1#
+1*
+#60000000
+b10 "
+0(
+1)
+b10 +
+#64500000
+1*
+#70000000
+b11 "
+1(
+b11 +
+#74500000
+0#
+0*
+#80000000
