@@ -1,0 +1,87 @@
+$date
+  Thu Feb 22 02:07:21 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 3 ! sel[2:0] $end
+$comment tpd is not handled $end
+$var reg 8 " d_out[7:0] $end
+$var reg 8 # expected_out[7:0] $end
+$scope module decoder_dut $end
+$var reg 3 $ sel[2:0] $end
+$var reg 8 % d_out[7:0] $end
+$comment prop_delay is not handled $end
+$var reg 8 & temp[7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+bUUUUUUUU "
+b00000001 #
+b000 $
+bUUUUUUUU %
+b00000001 &
+#1600000
+b11111111 "
+b11111111 %
+#10000000
+b001 !
+b00000010 #
+b001 $
+b00000010 &
+#11600000
+b00000001 "
+b00000001 %
+#20000000
+b010 !
+b00000100 #
+b010 $
+b00000100 &
+#21700000
+b00000010 "
+b00000010 %
+#30000000
+b011 !
+b00001000 #
+b011 $
+b00001000 &
+#31800000
+b00000100 "
+b00000100 %
+#40000000
+b100 !
+b00010000 #
+b100 $
+b00010000 &
+#41900000
+b00001000 "
+b00001000 %
+#50000000
+b101 !
+b00100000 #
+b101 $
+b00100000 &
+#52500000
+b00010000 "
+b00010000 %
+#60000000
+b110 !
+b01000000 #
+b110 $
+b01000000 &
+#62600000
+b00100000 "
+b00100000 %
+#70000000
+b111 !
+b10000000 #
+b111 $
+b10000000 &
+#72700000
+b01000000 "
+b01000000 %
+#80000000
