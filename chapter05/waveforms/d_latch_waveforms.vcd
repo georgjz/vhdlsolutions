@@ -1,0 +1,93 @@
+$date
+  Fri Feb 23 16:01:41 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! d $end
+$var reg 1 " en $end
+$var reg 1 # q $end
+$var reg 1 $ q_n $end
+$scope module dut $end
+$var reg 1 % d $end
+$var reg 1 & en $end
+$var reg 1 ' q $end
+$var reg 1 ( q_n $end
+$var reg 1 ) intern $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+0"
+U#
+U$
+1%
+0&
+U'
+U(
+U)
+#3000000
+U'
+#5000000
+0!
+0%
+#10000000
+1"
+1$
+1&
+1(
+0)
+#12000000
+1!
+1%
+#13000000
+0#
+0'
+#20000000
+0"
+0&
+#24000000
+0!
+0%
+#28000000
+1!
+1%
+#30000000
+1"
+0$
+1&
+0(
+1)
+#34000000
+1#
+1'
+#40000000
+0"
+0&
+#48000000
+0!
+0%
+#50000000
+1"
+1$
+1&
+1(
+0)
+#53000000
+0#
+0'
+#60000000
+0"
+0&
+#70000000
+1"
+1&
+#80000000
+0"
+0&
+#90000000
+1"
+1&
