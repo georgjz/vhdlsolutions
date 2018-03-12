@@ -1,0 +1,69 @@
+$date
+  Mon Mar 12 20:35:40 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var integer 32 ! a $end
+$var integer 32 " b $end
+$var integer 32 # s $end
+$scope module dut $end
+$var integer 32 $ a $end
+$var integer 32 % b $end
+$var integer 32 & s $end
+$upscope $end
+$enddefinitions $end
+#0
+b11 !
+b110 "
+b1001 #
+b11 $
+b110 %
+b1001 &
+#5000000
+b100 !
+b101 "
+b100 $
+b101 %
+#10000000
+b101 !
+b1000 "
+b1101 #
+b101 $
+b1000 %
+b1101 &
+#15000000
+b110 !
+b110 $
+#20000000
+b11 !
+b11 $
+#25000000
+b1 !
+b1 $
+#30000000
+b110 "
+b111 #
+b110 %
+b111 &
+#35000000
+b10 "
+b10 %
+#40000000
+b10 !
+b1 "
+b11 #
+b10 $
+b1 %
+b11 &
+#45000000
+b1001 !
+b1001 "
+b10010 #
+b1001 $
+b1001 %
+b10010 &
+#50000000

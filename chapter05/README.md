@@ -8,3 +8,5 @@
 **Excerise 21**: d_latch.vhdl, d_latch_tb.vhdl
 
 **Excerise 22**: flipflop.vhdl, flipflop_tb.vhdl
+
+**Excerise 23**: adder.vhdl, adder.vhdl
