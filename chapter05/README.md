@@ -6,3 +6,5 @@
 **Excerise 20**: counter.vhdl, counter_tb.vhdl
 
 **Excerise 21**: d_latch.vhdl, d_latch_tb.vhdl
+
+**Excerise 22**: flipflop.vhdl, flipflop_tb.vhdl
