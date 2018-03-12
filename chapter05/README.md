@@ -9,4 +9,4 @@
 
 **Excerise 22**: flipflop.vhdl, flipflop_tb.vhdl
 
-**Excerise 23**: adder.vhdl, adder.vhdl
+**Excerise 23**: adder.vhdl, adder_tb.vhdl
