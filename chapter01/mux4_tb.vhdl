@@ -10,8 +10,8 @@ architecture test_mux4 of mux4_test_bench is
            b0, b1, b2, b3,                  -- input b
            sel,                             -- selection signal
            z0, z1, z2, z3 : std_ulogic;     -- output
-
 begin
+    
     mux4_dut : entity work.mux4(struct)
         port map ( a0, a1, a2, a3, b0, b1, b2, b3, sel, z0, z1, z2, z3 );
 

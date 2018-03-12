@@ -8,6 +8,7 @@ end entity mux_test_bench;
 architecture test_mux of mux_test_bench is
     signal a, b, sel : std_ulogic;
 begin
+    
     mux_dut : entity work.mux(behav)
         port map ( a, b, sel );
 
