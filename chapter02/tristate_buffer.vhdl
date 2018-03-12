@@ -11,6 +11,7 @@ end entity tristate_buffer;
 
 architecture behav of tristate_buffer is
 begin
+
     buff : process is
     begin
         if en = '1' or en = 'H' then
@@ -28,4 +29,5 @@ begin
         end if;
         wait on data_in, en;
     end process buff;
+    
 end architecture behav;

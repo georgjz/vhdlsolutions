@@ -10,6 +10,7 @@ end entity simpleALU;
 -- behavioral body
 architecture behav of simpleALU is
 begin
+
     calculate : process is
     begin
         if opcode = '0' then
@@ -19,4 +20,5 @@ begin
         end if;
         wait on x, y, opcode;
     end process calculate;
+    
 end architecture behav;

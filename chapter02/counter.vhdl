@@ -9,6 +9,7 @@ end entity counter;
 -- behavioral body
 architecture behav of counter is
 begin
+
     count_up : process is
         variable temp_count : integer := 0;
     begin
@@ -18,4 +19,5 @@ begin
         q <= temp_count;
         wait on clk;
     end process count_up;
+    
 end architecture behav;

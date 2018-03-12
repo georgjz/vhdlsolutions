@@ -7,6 +7,7 @@ architecture test_counter of counter_test_bench is
     signal clk : bit;
     signal q : integer := 0;
 begin
+
     counter_dut : entity work.counter(behav)
         port map ( clk, q );
 
@@ -35,4 +36,5 @@ begin
         clk <= '0'; wait for 10 ns;
         wait;
     end process stimulus;
+    
 end architecture test_counter;

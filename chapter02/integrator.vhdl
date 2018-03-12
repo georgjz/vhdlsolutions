@@ -10,6 +10,7 @@ end entity integrator;
 -- behavioral body
 architecture behav of integrator is
 begin
+
     integrate : process is
         variable temp_sum : real := 0.0;
     begin
@@ -19,4 +20,5 @@ begin
         data_out <= temp_sum;
         wait on clk;
     end process integrate;
+    
 end architecture behav;

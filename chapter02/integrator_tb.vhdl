@@ -7,6 +7,7 @@ architecture test_integrator of integrator_test_bench is
     signal clk : bit;
     signal data_in, data_out : real;
 begin
+
     integrator_dut : entity work.integrator(behav)
         port map ( clk, data_in, data_out );
 
@@ -25,4 +26,5 @@ begin
         clk <= '0'; wait for 5 ns;
         wait;
     end process stimulus;
+    
 end architecture test_integrator;

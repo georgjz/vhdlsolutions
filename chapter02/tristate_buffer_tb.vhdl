@@ -10,6 +10,7 @@ architecture test_tristate_buffer of tristate_buffer_test_bench is
     -- make sure all signals have a defined state
     signal data_in, en, data_out : std_ulogic := 'Z';
 begin
+
     tristate_buffer_dut : entity work.tristate_buffer(behav)
         port map ( data_in, en, data_out );
 
@@ -25,4 +26,5 @@ begin
         data_in <= 'Z'; en <= 'H'; wait for 10 ns;
         wait;
     end process stimulus;
+    
 end architecture test_tristate_buffer;

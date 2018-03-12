@@ -7,6 +7,7 @@ architecture test_simpleALU of simpleALU_test_bench is
     signal x, y, result : integer;
     signal f : bit;
 begin
+
     simpleALU_dut : entity work.simpleALU(behav)
         port map ( x, y, f, result );
 
@@ -34,4 +35,5 @@ begin
         x <= 5; y <= 0; f <= '1'; wait for 5 ns;
         wait;
     end process stimulus;
+    
 end architecture test_simpleALU;
