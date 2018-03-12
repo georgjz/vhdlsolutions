@@ -13,6 +13,7 @@ end entity mux;
 -- behavioral body
 architecture behav of mux is
 begin
+
     process is
     begin
         if sel = '0' then
@@ -23,4 +24,5 @@ begin
     -- suspend process and wait until one input changes
     wait on a, b, sel;
     end process;
+    
 end architecture behav;
